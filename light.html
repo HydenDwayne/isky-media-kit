@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Media Kit</title>
+    <link rel="icon" type="image/x-icon" href="media/favicon.ico">
+
+    <div class="crop">
+        <img class= "invert" src="media/IMG_-pjyc54-removebg-preview.png" alt="Logo">
+    </div>
+
+    <div class="parent">
+        <h1 class="text;" style="font-family:Averia-Regular ; color: aliceblue;">Infinity Skies Media Kit</h1>
+    </div>
+
+</head>
+<body style="background-color:rgba(0, 0, 0, 0.911) ;">
+    
+  <style>
+          @font-face { font-family: Averia-Regular; src: url(font/Averia-Regular.ttf);}
+      .text{
+          font-family: Averia-Regular;}
+  </style>
+
+  <div class="parent">
+    <ul class="text" style="font-size:20px;">
+        <li><a href="index.html">Logo</a></li>
+        <li><a href="banner.html">Banner</a></li>
+        <li><a href="avatar.html">Team</a></li>
+        <li><a href="conceptArt.html">Concept Art</a></li>
+        <li><a href="websiteAsset.html">Website Asset</a></li>
+        <li><a href="leak.html">Leak</a></li>
+        <li><a href="character.html">Character</a></li>
+        <li><a href="assetShowcase.html">Video</a></li>
+        <li><a href="structure.html">Game Assets</a></li> 
+    </ul>
+  </div>
+
+  <div class="parent">
+    <ul class="text" style="font-size:20px;">
+        <li><a href="structure.html">Structure</a></li>
+        <li><a href="decoration.html">Decorations</a></li>
+        <li><a href="portal.html">Portal</a></li>
+        <li><a href="object.html">Object</a></li>
+        <li><a href="nature.html">Nature</a></li>
+        <li><a href="light.html">Light</a></li>
+    </ul>
+  </div>
+    
+  <main>
+    <div class="grid-container">
+      <div class="column">
+        <img src="media/Assets/Light/lantern_standard_curved_thumb.png">
+        <img src="media/Assets/Light/lantern_standard_rugged_thumb.png">
+        <img src="media/Assets/Light/lantern_standard_serpent_image.png">
+        <img src="media/Assets/Light/lantern_standard_serpent_thumb.png">
+        <img src="media/Assets/Light/lantern_standard_street_thumb.png">
+        <img src="media/Assets/Light/lantern_standard_thick_thumb.png">
+        <img src="media/Assets/Light/lantern_standing_blight_thumb.png">
+      </div>
+
+      <div class="column">
+        <img src="media/Assets/Light/lantern_standing_sloped_thumb.png">
+        <img src="media/Assets/Light/lantern_wall_blue_image.png">
+        <img src="media/Assets/Light/lantern_wall_bronze_image.png">
+        <img src="media/Assets/Light/lantern_wall_iron_image.png">
+        <img src="media/Assets/Light/lantern_wall_rainbow_image.png">
+        <img src="media/Assets/Light/lantern_standing_red_fancy_thumb.png">
+        <img src="media/Assets/Light/lantern_standing_simple_thumb.png">
+      </div>
+
+      <div class="column">
+        <img src="media/Assets/Light/trihorn_candles_thumb.png">
+        <img src="media/Assets/Light/lantern_wall_red_image.png">
+        <img src="media/Assets/Light/lunorine_sacramental_candle_image.png">
+        <img src="media/Assets/Light/metalurgist_candle_image.png">
+        <img src="media/Assets/Light/pyranian_serpent_candle_image.png">
+        <img src="media/Assets/Light/simple_brass_candle_image.png">
+        <img src="media/Assets/Light/lantern_standing_blue_exquisite_thumb.png">
+      </div>
+
+    </div>
+  </main>
+
+  <script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+    
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+          panel.style.display = "none";
+        } else {
+          panel.style.display = "block";
+        }
+      });
+    }
+    </script>
+  
+</body>
+</html>
